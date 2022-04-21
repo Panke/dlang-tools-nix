@@ -1,13 +1,13 @@
 { stdenv, ldc, dub, fetchgit, git }:
-    stdenv.mkDerivation 
+    stdenv.mkDerivation
     {
         name = "dfmt";
         version = "0.14.2";
-        srcs = [ 
+        srcs = [
             (fetchgit {
                 url = "https://github.com/dlang-community/dfmt.git";
                 rev = "6a24f0dc7c490f4cb06cdc9d21b841bee84615f4";
-                sha256 = "VvlxhdY679btAtYKIsnPKj5nu6EjRyyurIEa2iqnWbc=";
+                sha256 = "VVIwYZkLZbOmhi9L+/61y0ENFQzVITVmCiybV7LxJuM=";
                 name = "dfmt";
                 fetchSubmodules = true;
                 deepClone = true;
